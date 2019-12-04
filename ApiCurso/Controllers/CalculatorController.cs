@@ -11,12 +11,59 @@ namespace ApiCurso.Controllers
     {
 
         // PUT api/values/5
-        [HttpGet("{primeiroNum}/{segundoNum}")]
+        [HttpGet("soma/{primeiroNum}/{segundoNum}")]
         public IActionResult Soma(string primeiroNum, string segundoNum)
         {
             if (ENumero(primeiroNum) && ENumero(segundoNum))
             {
                 var sum = ConverterDecimal(primeiroNum) + ConverterDecimal(segundoNum);
+                return Ok(sum.ToString());
+            }
+            return BadRequest("Valor invalido");
+        }
+
+        [HttpGet("subtracao/{primeiroNum}/{segundoNum}")]
+        public IActionResult Subtracao(string primeiroNum, string segundoNum)
+        {
+            if (ENumero(primeiroNum) && ENumero(segundoNum))
+            {
+                var sum = ConverterDecimal(primeiroNum) - ConverterDecimal(segundoNum);
+                return Ok(sum.ToString());
+            }
+            return BadRequest("Valor invalido");
+        }
+
+
+        [HttpGet("divisao/{primeiroNum}/{segundoNum}")]
+        public IActionResult Divisao(string primeiroNum, string segundoNum)
+        {
+            if (ENumero(primeiroNum) && ENumero(segundoNum))
+            {
+                var sum = ConverterDecimal(primeiroNum) / ConverterDecimal(segundoNum);
+                return Ok(sum.ToString());
+            }
+            return BadRequest("Valor invalido");
+        }
+
+
+        [HttpGet("multiplicacao/{primeiroNum}/{segundoNum}")]
+        public IActionResult Multiplicacao(string primeiroNum, string segundoNum)
+        {
+            if (ENumero(primeiroNum) && ENumero(segundoNum))
+            {
+                var sum = ConverterDecimal(primeiroNum) * ConverterDecimal(segundoNum);
+                return Ok(sum.ToString());
+            }
+            return BadRequest("Valor invalido");
+        }
+
+
+        [HttpGet("media/{primeiroNum}/{segundoNum}")]
+        public IActionResult Media(string primeiroNum, string segundoNum)
+        {
+            if (ENumero(primeiroNum) && ENumero(segundoNum))
+            {
+                var sum = (ConverterDecimal(primeiroNum) + ConverterDecimal(segundoNum))/2;
                 return Ok(sum.ToString());
             }
             return BadRequest("Valor invalido");
