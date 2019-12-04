@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dev4Jobs4\\source\\repos\\ApiCurso\\ApiCurso\\ApiCurso.csproj": {}
+    "C:\\Users\\Dev4Jobs4\\Desktop\\ApiCurso\\APIUdemy\\ApiCurso\\ApiCurso.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dev4Jobs4\\source\\repos\\ApiCurso\\ApiCurso\\ApiCurso.csproj": {
+    "C:\\Users\\Dev4Jobs4\\Desktop\\ApiCurso\\APIUdemy\\ApiCurso\\ApiCurso.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dev4Jobs4\\source\\repos\\ApiCurso\\ApiCurso\\ApiCurso.csproj",
+        "projectUniqueName": "C:\\Users\\Dev4Jobs4\\Desktop\\ApiCurso\\APIUdemy\\ApiCurso\\ApiCurso.csproj",
         "projectName": "ApiCurso",
-        "projectPath": "C:\\Users\\Dev4Jobs4\\source\\repos\\ApiCurso\\ApiCurso\\ApiCurso.csproj",
+        "projectPath": "C:\\Users\\Dev4Jobs4\\Desktop\\ApiCurso\\APIUdemy\\ApiCurso\\ApiCurso.csproj",
         "packagesPath": "C:\\Users\\Dev4Jobs4\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dev4Jobs4\\source\\repos\\ApiCurso\\ApiCurso\\obj\\",
+        "outputPath": "C:\\Users\\Dev4Jobs4\\Desktop\\ApiCurso\\APIUdemy\\ApiCurso\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dev4Jobs4\\AppData\\Roaming\\NuGet\\NuGet.Config",
