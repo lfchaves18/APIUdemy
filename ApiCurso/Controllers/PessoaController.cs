@@ -8,7 +8,7 @@ namespace ApiCurso.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ValuesController : ControllerBase
+    public class PessoaController : ControllerBase
     {
         // GET api/values
         [HttpGet]
